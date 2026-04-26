@@ -166,6 +166,7 @@ System Ready (Hardware Sync)
 *Принципиальная схема устройства*
 
 ![image](https://raw.githubusercontent.com/free-gen/psesp/main/media/schematic2.png)
+![image](https://raw.githubusercontent.com/free-gen/psesp/main/media/schematic3.png)
 
 *Наглядная схема подключения*
 
