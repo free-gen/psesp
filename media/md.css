@@ -1,0 +1,35 @@
+.markdown-body img {
+    border-radius: 10px;
+}
+.markdown-body p:has(img) {
+    text-align: center;
+}
+.markdown-body p:has(img) img {
+    display: inline-block;
+}
+.markdown-body th,
+.markdown-body td {
+    min-width: 50px;
+}
+.markdown-body h1, h2, h3 {
+    color: royalblue;
+    font-weight: 700;
+    border-bottom: none !important;
+    text-align: center;
+}
+.markdown-body h3 {
+    font-size: 1.8em;
+}
+.markdown-body h2 {
+    font-size: 2em;
+    margin-top: 150px !important;
+    border-top: 1px solid royalblue;
+    padding-top: 30px;
+}
+.markdown-body h1 {
+    font-size: 2.5em;\
+    margin-bottom: 150px !important;
+}
+.markdown-body img[alt="image_small"] {
+    max-width: 320px;
+}
