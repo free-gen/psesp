@@ -1,35 +1,51 @@
-.markdown-body img {
-    border-radius: 10px;
+.markdown-body h1 {
+    font-size: 3em;
+    margin-bottom: 200px !important;
 }
-.markdown-body p:has(img) {
-    text-align: center;
+
+.markdown-body h2 {
+    font-size: 2em;
+    margin-top: 200px !important;
+    border-top: 1px solid royalblue;
+    padding-top: 30px;
 }
-.markdown-body p:has(img) img {
-    display: inline-block;
+
+.markdown-body h3 {
+    font-size: 1.8em;
 }
-.markdown-body th,
-.markdown-body td {
-    min-width: 50px;
-}
+
 .markdown-body h1, h2, h3 {
     color: royalblue;
     font-weight: 700;
     border-bottom: none !important;
     text-align: center;
 }
-.markdown-body h3 {
-    font-size: 1.8em;
+
+.markdown-body {
+    font-size: 16px;
 }
-.markdown-body h2 {
-    font-size: 2em;
-    margin-top: 150px !important;
-    border-top: 1px solid royalblue;
-    padding-top: 30px;
-}
-.markdown-body h1 {
-    font-size: 2.5em;\
+
+.navigation {
+    font-weight: 700;
     margin-bottom: 150px !important;
+    margin-top: 150px !important;
+    margin-left: 20px;
 }
+
+.markdown-body p:has(img) {
+    text-align: center;
+}
+
+.markdown-body p:has(img) img {
+    display: inline-block;
+    border-radius: 10px;
+}
+
 .markdown-body img[alt="image_small"] {
     max-width: 320px;
+}
+
+.markdown-body th,
+.markdown-body td {
+    min-width: 50px;
 }
